@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / local config
+.env
+.env.*
+
+# Terraform
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+terraform/modules/docker_build_push/source-*.zip
+crash.log
+
+# CLI output
+artifacts/
+
+# OS
+.DS_Store
